@@ -15,11 +15,13 @@ modules:
   - name: chirp
     buildsystem: simple
     build-commands:
-      - python3.10 -m pip install --no-index ./chirp-20250912-py3-none-any.whl
+      - python3.10 setup.py install --prefix=/app
     sources:
-      - type: file
-        url: https://archive.chirpmyradio.com/chirp_next/next-20250912/chirp-20250912-py3-none-any.whl
-        sha256: 23946946bc49b8ac765eec28a6a081699b56072796875f41fa23df8291fc4ab6
+      - type: git
+        url: https://github.com/kk7ds/chirp.git
+        branch: build-queue 
+        commit: d5dbf01d39fafe7df6f29c61f21cbf7be72f2ce7
+
     modules:
       - name: python3.10
         buildsystem: autotools
