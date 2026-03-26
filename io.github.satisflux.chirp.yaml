@@ -29,6 +29,10 @@ modules:
           - type: archive
             url: https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
             sha256: c4e0cbad57c90690cb813fb4663ef670b4d0f587d8171e2c42bd4c9245bd2758
+        cleanup:
+            - /lib/python3.10/test
+            - /lib/python3.10/idle*
+            - /lib/python3.10/tkinter
 
       - name: lark
         buildsystem: simple
@@ -137,6 +141,17 @@ modules:
                   - type: file
                     url: https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl
                     sha256: 4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274
+
+            cleanup:
+              - /include
+              - /lib/pkgconfig
+              - /share/pkgconfig
+              - /share/aclocal
+              - /share/man
+              - /share/doc
+              - /share/info
+              - "*.la"
+              - "*.a"
 
   - name: desktop-integration
     buildsystem: simple
