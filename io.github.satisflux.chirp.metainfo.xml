@@ -16,7 +16,7 @@
       NOTE: For the app to fully function, adding your Linux user to the dialout group will be required in order for CHIRP to access serial ports.
     </p>
     <p>
-      This is usually done like this: <code>sudo usermod -aG dialout yourname</code>
+      This is usually done like this: <code>sudo usermod -aG dialout $USER</code>
     </p>
   </description>
   
