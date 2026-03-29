@@ -1,8 +1,8 @@
 builder := "flatpak run org.flatpak.Builder"
 
-# Builds flatpak
-build BUILD_DIR INS:
-    {{builder}} {{BUILD_DIR}} {{INS}} --user --force-clean io.github.satisflux.chirp.yaml
+# Builds and install flatpak
+build:
+    {{builder}} build --install --user --force-clean io.github.satisflux.chirp.yaml
 
 # Run flatpak
 run:
