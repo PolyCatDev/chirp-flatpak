@@ -20,7 +20,7 @@ modules:
       - type: git
         url: https://github.com/kk7ds/chirp.git
         branch: build-queue 
-        commit: d5dbf01d39fafe7df6f29c61f21cbf7be72f2ce7
+        commit: 915cdc7410c63a14956b42db2dc1d4111c26d3a8
 
     modules:
       - name: python3.10
