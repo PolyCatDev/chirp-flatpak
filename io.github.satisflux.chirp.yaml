@@ -4,6 +4,17 @@ runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: chirp
 
+cleanup:
+  - /bin/pygobject*
+  - /bin/pygtk*
+  - /include
+  - /lib/*.la
+  - /lib/debug
+  - /lib/pkgconfig
+  - /lib/pygtk
+  - /share/doc
+  - /share/gtk-doc
+
 finish-args:
   - --share=network
   - --filesystem=home
