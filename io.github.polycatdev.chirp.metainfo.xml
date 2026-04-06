@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.satisflux.chirp</id>
+  <id>io.github.polycatdev.chirp</id>
   
   <name>CHIRP</name>
   <summary>A free, open-source tool for programming your radio.</summary>
@@ -20,13 +20,13 @@
     </p>
   </description>
   
-  <launchable type="desktop-id">io.github.satisflux.chirp.desktop</launchable>
+  <launchable type="desktop-id">io.github.polycatdev.chirp.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/Satisflux-Laboratories/chirp-flatpak/refs/heads/main/screenshots/chirp-main.png</image>
+      <image>https://raw.githubusercontent.com/PolyCatDev/chirp-flatpak/refs/heads/main/screenshots/chirp-main.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/Satisflux-Laboratories/chirp-flatpak/refs/heads/main/screenshots/chirp-example.png</image>
+      <image>https://raw.githubusercontent.com/PolyCatDev/chirp-flatpak/refs/heads/main/screenshots/chirp-example.png</image>
     </screenshot>
   </screenshots>
 </component>

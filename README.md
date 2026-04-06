@@ -20,5 +20,5 @@ flatpak install org.flatpak.Builder
 ### 2. Build and Install Flatpak
 
 ```bash
-flatpak run org.flatpak.Builder build --user --install --force-clean io.github.satisflux.chirp.yaml
+flatpak run org.flatpak.Builder build --user --install --force-clean io.github.polycatdev.chirp.yaml
 ```

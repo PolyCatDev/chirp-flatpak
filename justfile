@@ -5,8 +5,8 @@ _help:
 
 # Builds and install flatpak
 build:
-    {{builder}} build --install --user --force-clean io.github.satisflux.chirp.yaml
+    {{builder}} build --install --user --force-clean io.github.polycatdev.chirp.yaml
 
 # Run flatpak
 run:
-    flatpak run io.github.satisflux.chirp
+    flatpak run io.github.polycatdev.chirp
