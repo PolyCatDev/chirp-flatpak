@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/kk7ds/chirp.git
-        branch: build-queue 
-        commit: 915cdc7410c63a14956b42db2dc1d4111c26d3a8
+        branch: master
+        commit: f4d152ee90cf521632e633af092470fe84ec862d
 
     modules:
       - name: python3.10
