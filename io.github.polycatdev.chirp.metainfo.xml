@@ -26,4 +26,11 @@
       <image>https://raw.githubusercontent.com/PolyCatDev/chirp-flatpak/refs/heads/main/screenshots/chirp-example.png</image>
     </screenshot>
   </screenshots>
+
+  <url type="homepage">https://chirpmyradio.com</url>
+  <url type="bugtracker">https://chirpmyradio.com/projects/chirp/issues</url>
+  <url type="help">https://chirpmyradio.com/projects/chirp/wiki/Documentation</url>
+
+  <content_rating type="oars-1.1"/>
+
 </component>
