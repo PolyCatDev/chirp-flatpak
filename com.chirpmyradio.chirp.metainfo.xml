@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.polycatdev.chirp</id>
-  
+  <id>com.chirpmyradio.chirp</id>
   <name>CHIRP</name>
   <summary>A free, open-source tool for programming your radio.</summary>
   
@@ -17,7 +16,7 @@
     </p>
   </description>
   
-  <launchable type="desktop-id">io.github.polycatdev.chirp.desktop</launchable>
+  <launchable type="desktop-id">com.chirpmyradio.chirp.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/PolyCatDev/chirp-flatpak/refs/heads/main/screenshots/main.png</image>
