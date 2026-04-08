@@ -7,5 +7,5 @@ Comment=A free, open-source tool for programming your radio.
 Categories=Settings;HardwareSettings;
 
 Icon=io.github.polycatdev.chirp
-Exec=chirp
+Exec=chirp-wrapper.sh
 Terminal=false
