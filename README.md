@@ -2,6 +2,9 @@
 
 A third party flatpak distribution of CHIRP.
 
+> [!IMPORTANT]
+> The deloyment has moved to [my flathub fork](https://github.com/PolyCatDev/flathub/tree/com.chirpmyradio.chirp).
+
 ## How to build
 
 ### 1. Install Flatpak Builder
